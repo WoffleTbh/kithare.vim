@@ -10,9 +10,9 @@ syntax keyword khConditional    if else elif
 syntax keyword khLoop           while do until
 syntax keyword khBranch         break continue return
 syntax keyword khTypedef        struct class enum alias
-syntax keyword khBoolean        true false
+syntax keyword khBoolean        true false null
 syntax keyword khKeyword        def import include
-syntax keyword khType           int float complex int8 int16 int32 int64 uint8 uint16 uint32 uint64 float32 float64 complex64 complex128 ref byte word dword qword
+syntax keyword khType           sbyte short int long byte ushort uint ulong float double cfloat cdouble char bool
 syntax match   khOperator       "+\|-\(\(>\)\?\)\|*\|/\|%\|@\|^\|+=\|-=\|*=\|/=\|%=\|@=\|^=\|==\|!=\|<=\|>=\|<<\|>>\|!" " NOTE: '!' is for templating, not unary not
 syntax keyword khLogical        and or not as
 
