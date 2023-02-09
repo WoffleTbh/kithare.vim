@@ -1,4 +1,5 @@
 # kithare.vim
+## !! NOTE: This repository is now archived as the original Kithare project has been abandoned !!  
 Syntax highlighting and file associations for the [Kithare](https://github.com/Kithare/Kithare) programming language
 # Installation
 ### vim-plug
